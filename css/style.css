@@ -1,0 +1,390 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #6A0D91;
+  --secondary-color: #C0C0C0;
+  --accent-color: #F8F8F8;
+  --hover-bg-color: black;
+  --section-bg-color: #f5f5f5;
+}
+
+/*-----------------------------HOME------------------------------------*/
+/*BANNER*/
+.hero-bg {
+  background-image: url(../img/hero-bg.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.559);
+  height: 100%;
+  width: 100%;
+}
+
+/*HEADER*/
+.logo {
+  width: 180px;
+}
+
+.head {
+  color: white;
+}
+
+.head:hover {
+  color: var(--primary-color);
+}
+
+/*BANNER SECTION*/
+.banner-div {
+  padding-top: 14%;
+}
+
+.text-1 {
+  color: var(--primary-color);
+}
+
+.text-3 {
+  letter-spacing: 5px;
+}
+
+.text-2 {
+  color: var(--accent-color);
+}
+
+.sec-1 {
+  font-weight: 900;
+  letter-spacing: 3px;
+  font-size: 70px;
+}
+
+.hero-btn {
+  border: none;
+  border: 2px solid var(--primary-color);
+  width: 8%;
+}
+
+.btn-1 {
+  background-color: var(--primary-color);
+}
+
+.btn-1:hover {
+  background-color: var(--hover-bg-color);
+  border: transparent;
+  color: var(--accent-color);
+}
+
+.btn-2 {
+  background-color: transparent;
+}
+
+.btn-2:hover {
+  background-color: var(--primary-color);
+}
+
+.icon {
+  color: var(--primary-color);
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  border: 2px var(--primary-color) dotted;
+  border-radius: 999px;
+}
+
+.section-1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 200px;
+  background-color: var(--section-bg-color);
+}
+
+/*SECTION 2*/
+.hr {
+  border: 2px solid var(--primary-color);
+  width: 70px;
+}
+
+.product-img-1 {
+  width: 80%;
+}
+
+.img-1 {
+  width: 350px;
+  height: 520px;
+  box-shadow: 3px 3px 5px 5px rgb(236, 236, 236);
+  transition: 0.5s;
+}
+
+.img-1:hover {
+  box-shadow: none;
+}
+
+.hero-btn1 {
+  border: none;
+  padding: 10px;
+}
+
+/*SECTION 3*/
+.sec_3 {
+  background-color: var(--section-bg-color);
+}
+
+.img-str {
+  width: 86%;
+  position: relative;
+}
+
+.price-box {
+  background-color: #de92ff;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  position: absolute;
+  top: 2220px;
+  left: 400px;
+}
+
+.inner-price {
+  background-color: var(--primary-color);
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 26px;
+  margin-left: 6px;
+  margin-top: 5px;
+}
+
+.price {
+  color: white;
+  line-height: 18px;
+}
+
+.box {
+  width: 86px;
+  height: 86px;
+  border: 3px solid var(--primary-color);
+}
+
+/*SETION 4*/
+.avatar1 {
+  width: 120px;
+}
+
+/*SECTION 5*/
+.fruits {
+  background-image: url(../img/fruits.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.334);
+  background-blend-mode: multiply;
+  width: 550px;
+  height: 450px;
+}
+
+.play {
+  background-color: var(--primary-color);
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px rgba(249, 248, 248, 0.483);
+  margin-top: 180px;
+  transition: 0.9s;
+}
+
+.play:hover {
+  background-color: var(--secondary-color);
+}
+
+/*SECTION 6*/
+.sec_6 {
+  padding-left: 450px;
+}
+
+.Organge {
+  background-image: url(../img/orange.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+}
+
+/*SECTION 8*/
+.logos {
+  background-color: var(--section-bg-color);
+  height: 200px;
+}
+
+.line {
+  border: 2px solid var(--primary-color);
+  width: 30px;
+}
+
+/*FOOTER*/
+.footer {
+  background-color: rgb(157, 155, 155);
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+.footer_ {
+  gap: 160px;
+}
+
+.search-box {
+  width: 200px;
+  height: 40px;
+  background-color: transparent;
+}
+
+.send {
+  background-color: var(--primary-color);
+  padding: 12px;
+  color: white;
+}
+
+/*-------------------------------------ABOUT----------------------------------------*/
+/*BANNER SECTION*/
+.about-bg-pic {
+  background-image: url(../img/about-bg-pic.jpg);
+  background-attachment: fixed;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.62);
+  height: 430px;
+  width: 100%;
+}
+
+.a_text1 {
+  font-size: 80px;
+}
+
+/*SECTION 1*/
+.icon1 {
+  color: var(--primary-color);
+  width: 65px;
+  height: 65px;
+  text-align: center;
+  border: 2px var(--primary-color) dotted;
+  border-radius: 999px;
+}
+
+.feature-bg {
+  width: 600px;
+  height: 400px;
+}
+
+/*SECTION 3*/
+.team {
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.169);
+  height: 400px;
+  width: 330px;
+  padding-top: 350px;
+padding-left: 100px;
+}
+
+.team-1 {
+  background-image: url(../img/team-1.jpg);
+}
+
+.team-2 {
+  background-image: url(../img/team-2.jpg);
+}
+
+.team-3 {
+  background-image: url(../img/team-3.jpg);
+}
+
+.a_hover{
+  background-color: var(--primary-color);
+  color: var(--section-bg-color);
+  padding: 10px;
+}
+
+.a_hover:hover{
+  background-color: black;
+}
+
+/*----------------------------------CART--------------------------------*/
+/*SECTIO 1*/
+.img1{
+  width: 60px;
+}
+
+/*----------------------------CONTACT----------------------------*/
+.input-box{
+  width: 350px;
+  height: 50px;
+}
+
+.input-box1{
+  width: 724px;
+  height: 230px;
+  padding-bottom: 140px;
+}
+
+/*----------------------------CHECK OUT----------------------------*/
+.content-container {
+  max-width: 740px;
+  margin: 20px auto;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.eqd-accordion__heading {
+  margin-bottom: 0;
+}
+
+.eqd-accordion__button {
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    justify-content: normal;
+    text-align: left;
+    padding: 0;
+    color: #1b1b1b;
+    background-color: #f0f0f0;
+    background-image: url(https://equalizedigital.com/wp-content/uploads/2024/07/minus.svg), linear-gradient(transparent, transparent);
+    background-repeat: no-repeat;
+    background-position: right 1.25rem center;
+    background-size: 1.5rem;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    margin: 0;
+    padding: 1rem 3.5rem 1rem 1.25rem;
+    text-decoration: none;
+    width: 100%;
+}
+
+.eqd-accordion__button[aria-expanded=false], 
+.eqd-accordion__button[aria-expanded=false]:hover {
+    background-image: url(https://equalizedigital.com/wp-content/uploads/2024/07/plus.svg), linear-gradient(transparent, transparent);
+    background-repeat: no-repeat;
+}
+
+.eqd-accordion__button[aria-expanded=false] {
+    background-size: 1.5rem;
+}
+
+.eqd-accordion__content {
+    color: #1b1b1b;
+    background-color: #fff;
+    margin-top: 0;
+    overflow: auto;
+    padding: 1rem 1.25rem calc(1rem - .25rem);
+    font-size: 1.06rem;
+    line-height: 1.5;
+    border-bottom: .25rem solid #f0f0f0;
+    border-left: .25rem solid #f0f0f0;
+    border-right: .25rem solid #f0f0f0;
+}
+
